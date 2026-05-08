@@ -18,8 +18,8 @@ Aplikasi web berbasis Laravel untuk menangani keluhan dan permintaan support dar
 
 ### User (Employee)
 - Register dan login sebagai karyawan
-- Membuat tiket baru dengan nomor unik otomatis
-- Melihat daftar tiket milik sendiri
+- Membuat tiket baru dengan unique id otomatis
+- Melihat daftar tiket
 - Melihat detail tiket beserta riwayat aktivitas
 
 ### IT Support
@@ -27,7 +27,7 @@ Aplikasi web berbasis Laravel untuk menangani keluhan dan permintaan support dar
 - Melihat semua tiket dari seluruh karyawan
 - Filter tiket berdasarkan status, kategori, dan tanggal
 - Mengubah status tiket secara bertahap (Open, On Progress, Resolved, Closed)
-- Menambahkan catatan setiap kali mengupdate status tiket
+- Menambahkan update log setiap kali mengupdate status tiket
 
 ### Ticket History (Log)
 - Setiap perubahan pada tiket tercatat secara otomatis ke dalam activity log
